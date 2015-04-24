@@ -1,0 +1,40 @@
+{
+  "ProjectName": "SBTestWithData",
+  "ProjectGuid": "df235a23-9e0e-4236-8da1-87c3da1c7b70",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.SBTestWithData",
+  "DisplayName": "SBTestWithData",
+  "Author": "",
+  "Description": "",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.5.0",
+  "AndroidPermissions": [],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{6044fa6a-b5f2-48f7-9551-c50f67dfd3a2}",
+  "WP8ProductID": "{07e147bc-f6cc-4d14-a92c-ea3a159ca8c2}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.SBTestWithData",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
