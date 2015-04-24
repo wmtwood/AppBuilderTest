@@ -1,13 +1,68 @@
 {
   "type": "kendo-ui-mobile",
-  "isNew": true,
+  "name": "kendoUiMobileApp",
+  "navigation": "listmenu",
+  "views": [
+    {
+      "type": "view",
+      "name": "home",
+      "title": "Home",
+      "addToNavigation": true,
+      "components": [],
+      "icon": "home"
+    },
+    {
+      "type": "view",
+      "name": "aboutView",
+      "title": "About",
+      "addToNavigation": true,
+      "components": [],
+      "icon": "info"
+    },
+    {
+      "type": "view",
+      "name": "dataListView",
+      "title": "Activities",
+      "addToNavigation": true,
+      "components": [
+        {
+          "type": "list",
+          "name": "dataListViewModel",
+          "dataProvider": "myFriends",
+          "masterDetails": true,
+          "pullToRefresh": false,
+          "endlessScroll": false,
+          "imageField": "Picture",
+          "subHeaderField": "Text",
+          "detailHeaderField": "activityType",
+          "detailDescriptionField": "Text",
+          "detailImageField": "Picture",
+          "collection": "Activities",
+          "headerField": "activityType"
+        }
+      ],
+      "icon": "favorites"
+    }
+  ],
+  "view": "home",
+  "skin": "flat",
   "dataProviders": [
     {
       "type": "dataProvider",
-      "title": "DefaultProvider",
       "name": "defaultProvider",
+      "title": "DefaultProvider",
       "source": "everlive",
+      "everliveUrl": "//platform.telerik.com/bs-api/v1/",
       "everliveKey": "B3CPwOmzolrb5cza"
+    },
+    {
+      "type": "dataProvider",
+      "name": "myFriends",
+      "title": "JSDO Sample / MyFriends",
+      "source": "everlive",
+      "everliveUrl": "//platform.telerik.com/bs-api/v1/",
+      "everliveKey": "GeX0N1wAmfAJ6ayQ"
     }
-  ]
+  ],
+  "transition": "zoom"
 }

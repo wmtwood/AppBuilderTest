@@ -1,0 +1,12 @@
+<div data-role="view" data-title="Activities" data-layout="main" data-model="app.dataListView">
+
+    <ul data-role="listview" data-style="inset" data-template="dataListViewModelTemplate" data-bind="{ source: dataListViewModel.dataSource, events: {click: dataListViewModel.itemClick}}" data-pull-to-refresh="false" data-endless-scroll="false">
+    </ul>
+    <script type="text/x-kendo-template" id="dataListViewModelTemplate">
+        <div class="image-with-text">
+            <img src="#= PictureUrl #" width="30%" height="30%">
+            <h3>#: data.activityType #</h3>
+            <p>#: data.Text #</p>
+        </div>
+    </script>
+</div>
